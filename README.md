@@ -1,2 +1,2 @@
-# Ecommerce-Sales-Performance
-This report  analyses using Excel function to make insight  finding key improvement for business owner by compare product name, store location, days  and hours
+**Overview
+This Excel project analyzes sale performance, specifically comparing the revenue and qty from product name, store location, days and hours. The dashboard provides insights into sale stategies, maketing campaign, staff and stock inventory.

@@ -15,7 +15,7 @@ The data is from Kaggle that contain only one table, the coffee shop analysis da
 # Analysis Approach 
 - Using Pivot Tables to summary data
 - Using Pivot Chart to build visualization
-# Results 
-[![Demo Image](build/Screenshot%202026-03-03%20222905.png)](build/Screenshot%202026-03-03%20222905.png)
+# Results & Recommendations
+[![Demo Image](Output/Dashboard.png)](build/Output/Dashboard.png)
 
 

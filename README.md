@@ -40,12 +40,12 @@ The dashboard supports better decision-making in sales strategy, marketing, inve
 
 # 🛠️ Tools Used
 - **Microsoft Excel:**
-  Pivot Tables
-Pivot Charts
-Slicers
-Excel Functions (HOUR, TEXT, calculations)
+  - Pivot Tables
+  - Pivot Charts
+  - Slicers
+  - Excel Functions (HOUR, TEXT, calculations)
 
-📊 Analysis Approach
+# 📊 Analysis Approach
 - Performed data cleaning and transformation to prepare the dataset
 - Created calculated fields such as Hour, Day, Month, and Total Revenue
 - Used Pivot Tables to aggregate and summarize sales data

@@ -25,18 +25,49 @@ The dashboard supports better decision-making in sales strategy, marketing, inve
 - Store Location
 - Product Category
   
-# Data cleaning & preparing 
-- Converted transaction date and time columns into proper Excel/ date/time format
-- Adjusted time display to AM/PM format for clarity (“hh:mm:ss AM/PM” format) 
--	Created Hour column using the HOUR() function to analyze sales by hour.
--	Created Day of Week column using the TEXT([transaction Date], "ddd") to analyze sales by weekday.
--	Created Month column using TEXT([transaction Date], "mmm") to create slicer.
--	Calculated Total Revenue : Quantity Sold * Unit Price
--	Verified that all numerical columns(quantity, price, revenue) were correctly calculated.
-# Analysis Approach 
-- Using Pivot Tables to summary data
-- Using Pivot Chart to build visualization
-# Results & Recommendations
+# 🧹 Data Cleaning & Preparation
+
+**The dataset was prepared using Excel to ensure accuracy and usability:
+
+- Converted transaction date/time into proper Excel format
+- Standardized time display to AM/PM format
+- Created new columns for analysis:
+    - **Hour** → using HOUR()
+    - **Day of Week** → using TEXT(date, "ddd")
+    -**Month** → using TEXT(date, "mmm")
+- Calculated Total Revenue = Quantity × Unit Price
+- Validated all numeric fields for accuracy
+
+# 🛠️ Tools Used
+- **Microsoft Excel:**
+  Pivot Tables
+Pivot Charts
+Slicers
+Excel Functions (HOUR, TEXT, calculations)
+
+📊 Analysis Approach
+- Performed data cleaning and transformation to prepare the dataset
+- Created calculated fields such as Hour, Day, Month, and Total Revenue
+- Used Pivot Tables to aggregate and summarize sales data
+- Built an interactive dashboard to explore:
+    - Sales performance by time (hour, day, month)
+    - Performance across store locations
+    - Product category trends
+      
+# 📈 Key Insights
+- Sales performance varies significantly by time of day, with peak hours driving the majority of revenue
+- Certain product categories outperform others, contributing more to total sales
+- Store locations show different performance patterns, indicating potential for location-based strategies
+Weekly trends highlight high-traffic days that require optimized staffing
+
+# 🚀 Recommendations
+- Optimize staffing schedules during peak hours to improve service efficiency
+- Focus on high-performing products while promoting underperforming items
+- Adjust marketing strategies based on location-specific performance
+- Improve inventory planning using demand patterns by day and time
+
+# 📸 Dashboard Preview
+
 [![Demo Image](Output/Dashboard.png)](build/Output/Dashboard.png)
 
 

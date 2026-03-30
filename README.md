@@ -1,9 +1,30 @@
-# Maven Coffee Shop Analysis  Excel Project 
-Welcome to the Coffee Shop analysis project repository! This project aims to provide insightful analysis and visualization of Coffee shop data using Excel.
-# Overview
-This Excel project analyzes sale performance, specifically comparing the revenue and Quantity sold by product categories, store location, days and hours. The dashboard provides insights into sale stategies, maketing campaign, inventory and staffing.
-# Data Source
-The data is from Kaggle that contain only one table, the coffee shop analysis dataset comprises essential fields such as transactionID, transaction date, Qty sold, revenue, store location, product categories etc.
+# ☕ Maven Coffee Shop Analysis (Excel Project)
+Interactive Excel dashboard for analyzing coffee shop sales performance, customer behavior, and operational patterns.
+
+# 📌 Overview
+This project focuses on analyzing coffee shop sales data using Microsoft Excel. The goal is to transform raw transactional data into a clear and interactive dashboard that highlights key business metrics.
+
+**The analysis compares performance across:**
+- Product categories
+- Store locations
+- Days of the week
+- Hours of operation
+
+The dashboard supports better decision-making in sales strategy, marketing, inventory planning, and staffing.
+
+# 📂 Data Source
+- **Source:** Kaggle – Coffee Shop Dataset
+- **Structure:** Single table dataset
+  
+**Key Fields:**
+- Transaction ID
+- Transaction Date & Time
+- Quantity Sold
+- Unit Price
+- Revenue
+- Store Location
+- Product Category
+  
 # Data cleaning & preparing 
 - Converted transaction date and time columns into proper Excel/ date/time format
 - Adjusted time display to AM/PM format for clarity (“hh:mm:ss AM/PM” format) 
